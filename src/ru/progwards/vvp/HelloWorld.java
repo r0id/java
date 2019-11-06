@@ -10,10 +10,6 @@ public class HelloWorld {
 //         int z = x + y; // складываем x + y
         return x + y; // возвращаем результат
     }
-
-    static int addition1 (int x, int y ){
-        return x + y;
-    }
     public static void main (String[] args){
          println("Hello World!");
         println("World, are you hear me?");
