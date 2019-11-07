@@ -10,8 +10,7 @@ public class Task2 {
     public static void main(String[] args) {
         int z = subtraction(89, 55);
         System.out.println("Вызвана функция subtraction() с параметрами x = 89, y = 55");
-        System.out.print("Результат z = ");
-        System.out.print(z);
+        System.out.print("Результат z = "+z);
 
     }
 
