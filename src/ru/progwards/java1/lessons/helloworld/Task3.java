@@ -1,41 +1,36 @@
 package ru.progwards.java1.lessons.helloworld;
 
 public class Task3 {
-    public static int addition(int x, int y){ //3.1
-//        int x = a;
-//        int y = b;
-//        int c = x + y;
+    public static int addition(int x, int y){
+        int j = x + y;
         return x + y;
-
     }
-    public static int subtraction(int x, int y){ //3.2
 
+    public static int subtraction(int x, int y){
+        int r = x - y;
         return x - y;
     }
 
-    public static int multiplication(int x, int y){ //3.3
+    public static int multiplication(int x, int y){
+        int t = x * y;
         return x * y;
-
     }
 
-    public static void main(String[] args){
-        int  a, b , c;
-        a = 34;
-        b = 55;
-
-//        int c = addition(34, 55);
-
-        System.out.println("Вызвана функция subtraction()");
+    public static void main(String[] args) {
+        int a = 34;
+        int b = 55;
+        int x = a;
+        int y = b;
+        int j = addition(a, b);
+        int r = subtraction(a, b);
+        int t = multiplication(a, b);
+        System.out.println("Вызвана функция addition()");
         System.out.println("Вызвана функция subtraction()");
         System.out.println("Вызвана функция multiplication()");
-        System.out.print("a = ");
-        System.out.println(a);
-        System.out.print("b = ");
-        System.out.println(b);
-//        System.out.println("a + b =");
-//        System.out.print(c);
-
+        System.out.println("a = "+ a);
+        System.out.println("b = "+ b);
+        System.out.println("a + b = "+ j);
+        System.out.println("a - b = "+ r);
+        System.out.println("a * b = "+ t);
     }
-
 }
-
