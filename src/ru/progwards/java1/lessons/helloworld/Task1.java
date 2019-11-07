@@ -16,5 +16,6 @@ public class Task1 {
         System.out.println("Хорошо идут дела Изучаю Java я!");
         System.out.print("Изучаю Java я! Хорошо идут дела.");
 
+
     }
 }
