@@ -12,20 +12,20 @@ public class Astronomy {
 
 
     public static Double earthSquare(){ //2.2
-     final double earthA = 6_371.2;
+     final double earthA = 6371.2;
      return sphereSquare(earthA);
 
     }
 
 
     public static Double mercurySquare(){ //2.3
-        final double mercuryB = 2_439.7;
+        final double mercuryB = 2439.7;
         return sphereSquare(mercuryB);
 
     }
 
     public static Double jupiterSquare(){ //2.4
-        final double jupiterC = 7_1492.0;
+        final double jupiterC = 71492.0;
         return sphereSquare(jupiterC);
 
 
